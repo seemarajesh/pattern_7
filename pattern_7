@@ -1,0 +1,12 @@
+#include <stdio.h>
+int main()
+{
+  int ir,ic;
+  for(ir='a';ir<='e';ir++){
+      for(ic='a';ic<=ir;ic++)
+      {
+          printf("%c",ic);
+      }
+      printf("\n");
+  }
+}
